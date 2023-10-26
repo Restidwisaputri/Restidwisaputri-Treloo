@@ -1,0 +1,359 @@
+/* Google Font CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: #7e81894d;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4070f4;
+}
+
+/* navbar */
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 998;
+  transition: all 0.3s ease;
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav .navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+nav .navbar .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color: #ffffff;
+}
+nav.sticky .navbar .logo a {
+  color: #fff;
+}
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+}
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0 8px;
+}
+.navbar .menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 6px 0;
+  transition: all 0.4s ease;
+}
+.navbar .menu a:hover {
+  color: #ffffff;
+}
+
+/* home */
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("background.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .home-content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home .text-one {
+  font-size: 50px;
+  color: #ffffff;
+}
+.home .text-two {
+  color: #ffffff;
+  font-size: 50px;
+  margin-left: -3px;
+}
+.home .text-three {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #ffffff;
+}
+.home .text-four {
+  font-size: 20px;
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.start-image {
+  position: absolute;
+  z-index: 1;
+  margin-top: -130px;
+  margin-left: 150px;
+}
+
+.start-image img {
+  max-width: 92%;
+  max-height: 85%;
+  width: auto;
+  height: auto;
+}
+
+section .content {
+  width: 80%;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+}
+.about .about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 200px;
+}
+a {
+  margin-top: 10px;
+  display: block;
+}
+
+.section2 {
+  height: 100vh;
+  width: auto;
+}
+
+.bar-item {
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px 10px;
+}
+.bar-item li {
+  margin: 0 10px;
+}
+
+.bar-item a {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+
+.image-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 350px;
+}
+.section .about {
+  height: 100vh;
+  width: auto;
+}
+
+section .content {
+  width: 80%;
+  margin: 40px auto;
+  font-family: "Ubuntu", sans-serif;
+}
+.about .about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about .left img {
+  object-fit: cover;
+  border-radius: 12px;
+}
+.about-details .right {
+  width: 60%;
+}
+.about .right .topic {
+  font-size: 50px;
+}
+.btn1 {
+  padding: 3px 3px;
+  background-color: deepskyblue;
+  color: #f1f1f1;
+  text-decoration: none;
+  font-family: "Ubuntu", sans-serif;
+  border-radius: 5px;
+  margin: 5px;
+  display: inline-block;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.section3 {
+  height: 70vh;
+  width: auto;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  align-items: center;
+  list-style: none;
+  padding: 10px 10px;
+  color: #7c7c7c;
+}
+
+.four li {
+  margin: 0 10px;
+}
+
+.four a {
+  text-decoration: none;
+  color: #7c7c7c;
+}
+
+.image2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+}
+
+.section4 {
+  height: 100vh;
+  width: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.bunder {
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: white;
+}
+
+.card img {
+  display: block;
+  margin: 0 auto;
+}
+
+h4 {
+  color: #3db4ec;
+  margin: 10px 0 10px 0;
+}
+h5 {
+  color: #ada8a8fa;
+  margin: 0 0 10px 0;
+}
+
+.panah {
+  text-align: center;
+  flex-direction: row;
+  margin-top: -25vh;
+  margin-bottom: 100px;
+}
+
+.centered-arrows {
+  justify-content: center;
+  align-items: center;
+  height: 0vh;
+}
+
+.section5 {
+  height: 90vh;
+  width: 100%;
+  background: url(gambar12.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-text {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+  background: none;
+  padding: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.textfooter {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 100px;
+}
+
+.textfooter .menu {
+  display: flex;
+}
+
+.menu a {
+  margin-right: 10px;
+  color: #000;
+}
+
+.textfooter .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  float: right;
+  margin-left: 700px;
+}
+
+/* akhir */
